@@ -18,14 +18,18 @@ $(document).ready( function(){
     $("#kirimNilai").click( function(){
         let boxNilai = $(".cekNilai");
         let setNilai = [];
+        let dataNilai={};
         boxNilai.each( function(i,data){
             let idSiswa = $(this).prop('id');
             let dataNilai = isChecked(idSiswa);
             setNilai.push(dataNilai);
         })
-        console.log(setNilai);
-           
-        
+        dataNilai={  item:localStorage.getItem('itemNilai'),data:setNilai  };
+        $.post(server+`setNilaiHarian` , { nilai : dataNilai } , function(resp){
+            // console.log(resp);
+            alert('data tersimpan');
+            window.location='nihar.html';
+        })
     })
 });
 

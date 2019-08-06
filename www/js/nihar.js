@@ -14,4 +14,7 @@ $(document).ready( function(){
         localStorage.setItem('labelNilai',nilai);
         window.location="nisis.html";
     })
+    $('.gohome').click( function(){
+        window.location="index.html";
+    })
 })

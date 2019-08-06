@@ -10,4 +10,13 @@ var itemNilai = {
     bergaulBaik:'Bergaul dengan baik',
     disiplin:'Disiplin dan tertib di sekolah'
 };
+
+var itemSentra = {
+    ibd: 'Ibadah',
+    psp: 'Persiapan',
+    exs: 'Eksplorasi Sains',
+    blk: 'Balok',
+    kre: 'Kreasi',
+    prn: 'Bermain Peran'
+}
 var server ="http://likgopar.mugeno.org/qurota/public/pusdata/";
