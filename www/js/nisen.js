@@ -51,6 +51,10 @@ $(document).ready( function(){
           getSentra();
         })
     })
+
+    $(".gohome").click(function(){
+        window.location="index.html";
+    })
 })
 
 function getSentra(){

@@ -27,7 +27,7 @@ li.media > div.media-body > h3 { font-size: 32px; font-family: 'Catamaran', sans
   box-shadow: 2px 2px 5px rgb(255,250,240);}
 
 .bottom-space{ width: 100%; height: 40px;}
-.footer{ position: fixed; bottom: 0px; padding: 5px
+.footer{ position: fixed; bottom: 0px; padding: 5px;
   height: 45px; text-align:  center; background-color: #050000de; color: floralwhite; 
   width: 100%; margin-top: 5px; margin-bottom: -2; font-family: 'Catamaran', sans-serif ;}
 div.list-group > li.list-group-item{ background-color: #e8ffbe;
@@ -37,3 +37,12 @@ div.list-group > li.list-group-item{ background-color: #e8ffbe;
   font-family: 'Boogaloo', cursive; font-size: 18pt;
 }
 #labelNilai{font-size: 16px; font-weight: bold;}
+.bordered-form{
+  background-color: black; color: khaki;
+  border-bottom-color: #6495ed; border-bottom-width: 2px;
+  margin: 2px 0px;
+}
+
+.bordered-form > label {
+  padding: 10px 20px; font-family: 'Acme', sans-serif; font-size: 14pt;
+}
