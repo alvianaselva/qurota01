@@ -2,7 +2,7 @@ html,body{
   background-color: #6495ed; padding: 0;
 }
 .container, .container-fluid { min-height: calc(100% - 40px);}
-.col-sm-9, .col-md-7 , .col-lg-5 { background-color: }
+/* .col-sm-9, .col-md-7 , .col-lg-5 { background-color: }*/
 .top { background-color: #330380;}
 .phead{
   background-color: #330380;
