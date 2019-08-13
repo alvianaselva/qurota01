@@ -19,4 +19,6 @@ var itemSentra = {
     kre: 'Kreasi',
     prn: 'Bermain Peran'
 }
-var server ="http://likgopar.mugeno.org/qurota/public/pusdata/";
+
+// /*Lokal */ var server ="http://likgopar.mugeno.org/qurota/public/pusdata/";
+var server = "https://qurota.klubaners.web.id/pusdata/";
