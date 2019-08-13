@@ -14,4 +14,8 @@ $(document).ready( function(){
     $("#mm_jurnal").click( function(){
         window.location="jurnalr.html";
     })
+
+    $("#mm_kuriku").click( function(){
+        window.location="kurikulum.html";
+    })
 });
