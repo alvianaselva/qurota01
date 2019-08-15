@@ -21,4 +21,5 @@ var itemSentra = {
 }
 
 // /*Lokal */ var server ="http://likgopar.mugeno.org/qurota/public/pusdata/";
+// /* Internet */
 var server = "https://qurota.klubaners.web.id/pusdata/";
