@@ -2,7 +2,7 @@ html,body{
   background-color: #6495ed; padding: 0;
 }
 .container, .container-fluid { min-height: calc(100% - 40px);}
-.col-sm-9, .col-md-7 , .col-lg-5 { background-color: }
+/* .col-sm-9, .col-md-7 , .col-lg-5 { background-color: }*/
 .top { background-color: #330380;}
 .phead{
   background-color: #330380;
@@ -46,3 +46,13 @@ div.list-group > li.list-group-item{ background-color: #e8ffbe;
 .bordered-form > label {
   padding: 10px 20px; font-family: 'Acme', sans-serif; font-size: 14pt;
 }
+
+#agerita > li > p , 
+#agerita > li > ul , 
+#agerita > li > ul > li{
+  margin: 0; padding: 0; list-style-type: none;
+}
+
+.uraiAgenta{ font-weight: 200; font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.itemNilai{font-family: 'Boogaloo', cursive; font-size: 24px;}
