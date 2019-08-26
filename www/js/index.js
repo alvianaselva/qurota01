@@ -6,4 +6,5 @@ $(document).ready( function(){
     $("#mm_sentra").click( function(){
         window.location="nisen.html";
     })
+    
 });
